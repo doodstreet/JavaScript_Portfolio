@@ -99,6 +99,7 @@ body.fade-out {
 	right: 0; /* This ensures no space between the edge of the video and the edge of the page */
 	bottom: 0; /* This ensures no space between the edge of the video and the edge of the page */
 	min-height: 100%; /* This ensures the video is displayed across the full height of the page */
+	min-width: 100%; /* this ensures the video displays across full width of page, even xl screen size*/
 	top: 0;
 	z-index: -1;
 	animation: zoominoutsinglefeatured 5s;
@@ -249,15 +250,16 @@ body.fade-out {
 	width: 50%; /* This ensures one column takes up half the page width */
 	padding: 1.6%; 
 	background-color: palegoldenrod; 
-	height: 448px; /* You may need to adjust this to fit your content */
+	height: 460px; /* You may need to adjust this to fit your content */
+	overflow: auto;
 }
 
 .Column_2 {
 	float: left;
 	width: 50%;
 	padding: 1.6%;
-	height: 448px; /* You may need to adjust this to fit your content */
 	background-color: powderblue;
+	height: 460px; /* You may need to adjust this to fit your content */
 }
 
 .Row:after { /* This inserts something after the content of selected elements */

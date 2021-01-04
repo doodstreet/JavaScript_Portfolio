@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <!-- Head -->
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Dave Street </title>
 		<link rel="stylesheet" type="text/css" href="Stylesheet/sample_Portfolio.css">
 		<script src="JS/sample_Portfolio.js" defer></script>
@@ -17,7 +18,7 @@
 		<a class="active" href="#Home">Home</a> 
 		<a href="#About">About</a>
 		<a href="#GitHub">GitHub</a>
-		<a href="#Contact">Contact</a>
+<!--		<a href="#Contact">Contact</a>   -->
 		<!-- this makes it so our openForm function runs when we click Contact on the nav bar-->
 		<a onclick="openForm()" onclick="closeForm()">Contact</a>
 	</div>
@@ -79,7 +80,7 @@
 
 		  <div class="mySlides fade">
 			<div class="Slide_Number">4 / 6</div>
-			  <img class="Slide_Show_Images" src="Stylesheet/Images/C_Sharp_and_Dot_Net.png" style="width:100%">
+			  <img class="Slide_Show_Images" src="Stylesheet/Images/C_Sharp_and_Dot_NET.png" style="width:100%">
 				<div class="text">C#, .NET Framework, ASP.NET, MVC,</div>
 		  </div>
 
@@ -93,7 +94,7 @@
 			<div class="Slide_Number">6 / 6</div>
 			  <img class="Slide_Show_Images" src="Stylesheet/Images/Coding_1.jpg" style="width:100%">
 				<div class="text">
-					<a onclick="openForm()" href="#Contact" style="color:white;">Contact me now!</a>
+					<a onclick="openForm()" href="#Contact" style="color:rgb(51, 122, 197);">Contact me now!</a>
 				</div>
 		  </div>
 
@@ -125,8 +126,20 @@
 		</div>
   
 		<div class="Column_1"> <!-- Right column -->
+			
 			<h1>About</h1>
-				<p>I am a very willing, open person and I like to be helpful. I work with a sense of urgency of completion and quality. I love my dogs, surfing and living a heathy lifestyle. I am looking forward to growth and prosper. <br><br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+				<p>
+					I come from a professional mechanical background and have always been one to upgrade and customize all things
+					for performance, longevity and serviceablity. I look forward to applying my life experiences to software and 
+					database development. I am a very willing, open person. I like to be helpful and work with a sense of urgency
+					of completion and quality. I love my dogs, surfing and living a heathy lifestyle. 
+					I try to always be positive, looking forward towards growth and prosperity. <br><br>
+					I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s 
+					Software Developer Boot Camp, and trained and experienced in the following web and programming languages: 
+					HTML, CSS, JavaScript, SQL, Python, C# and the .Net Framework. I have also had internships working on live
+					projects, each a two week sprint. <br><br>I am a full-stack developer and would love to work with you on your project. 
+					<a onclick="openForm()" href="#Contact";>Contact</a> me below!
+				</p>	
 		</div>
 	</div>
 
@@ -135,7 +148,11 @@
 		<div class="Column_1"> <!-- Left column -->
 			<h1>GitHub</h1>
 				<p>You can view my coding projects on my GitHub profile here:<br>
-				<center><a href="https://github.com/doodstreet" target="_blank">Check Out My GitHub Profile, doodstreet</a></center></p>
+				<center><a href="https://github.com/doodstreet" target="_blank">Visit My GitHub Profile: doodstreet</a></center></p>
+			<br>
+			<h1>LinkedIn</h1>
+				<p>Visit My LinkedIn Profile Here:<br>
+				<center><a href="https://www.linkedin.com/in/dave-street-03a3a0b7/" target="blank">LinkedIn: Dave Street</a></center></p>
 		</div>
 		
 		<div class="Column_2"> <!-- Right column -->
@@ -147,8 +164,8 @@
 
 	  <button onclick="openForm()" class="Pop_Up_Button"> CONTACT </button>
 		<div class="form-popup" id="myForm">
-<!--this is an online service (https://formspree.io/ to send our contacr fotn to anh email address of our choosing-- note: it will have to bve live on the intenet for this to work-->
-			<form action="https://formspree.io/info@learncodinganywhere.com" method="post" class="form-container">
+<!--this is an online service (https://formspree.io/ to send our contact form to an email address of our choosing-- note: it will have to bve live on the intenet for this to work-->
+			<form action="https://formspree.io/f/xknppeok" method="post" class="form-container">
 			<h1>Contact</h1>
 				<label for="name"><b>Name</b></label>
 				  <input type="text" placeholder="Type your name here" name="name" required>
@@ -168,7 +185,7 @@
 <!-- Footer section -->
 	<footer>
 		<p>
-			<center>&copy Prosper Consulting Inc.,  <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+			<center>&copy David Street 2020, 00davestreet@gmail.com	&nbsp &nbsp	Special Thanks to  <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
 		</p>
 	</footer>
 
