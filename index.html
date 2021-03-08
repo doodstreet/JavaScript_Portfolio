@@ -4,7 +4,9 @@
 <!-- Head -->
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="Dave Street, David Street, Dave, David, dave street, david street, dave, david, Portfolio Website">
+		<meta name="description" content="This is Dave Street's portfolio webpage">
 		<title>Dave Street </title>
 		<link rel="stylesheet" type="text/css" href="Stylesheet/sample_Portfolio.css">
 		<script src="JS/sample_Portfolio.js" defer></script>
@@ -17,7 +19,7 @@
 	<div class="Navbar">
 		<a class="active" href="#Home">Home</a> 
 		<a href="#About">About</a>
-		<a href="#GitHub">GitHub</a>
+		<a href="#GitHub">Resources</a>
 <!--		<a href="#Contact">Contact</a>   -->
 		<!-- this makes it so our openForm function runs when we click Contact on the nav bar-->
 		<a onclick="openForm()" onclick="closeForm()">Contact</a>
@@ -29,7 +31,7 @@
 		<br>
 
 <!-- Video -->
-		<video autoplay muted loop id="Typing_Video"> <!-- Makes the video play automatically, on a loop and with no sound -->
+		<video id="Typing_Video" autoplay muted loop> <!-- Makes the video play automatically, on a loop and with no sound -->
 			<source src="Stylesheet/Video/Typing.mp4" type="video/mp4">
 			Your browser does not support HTML5 video. <!-- Display message if video fails to run -->
 		</video>
@@ -121,6 +123,7 @@
 
 <!-- About section -->
 	<div class="Row" id="About"> 
+
 		<div class="Column_2"> <!-- Left column -->
 			<img src="Stylesheet/Images/Development1.jpg" alt="Laptop">
 		</div>
@@ -128,16 +131,20 @@
 		<div class="Column_1"> <!-- Right column -->
 			
 			<h1>About</h1>
+			<hr class="rounded">
 				<p>
-					I come from a professional mechanical background and have always been one to upgrade and customize all things
-					for performance, longevity and serviceablity. I look forward to applying my life experiences to software and 
-					database development. I am a very willing, open person. I like to be helpful and work with a sense of urgency
-					of completion and quality. I love my dogs, surfing and living a heathy lifestyle. 
-					I try to always be positive, looking forward towards growth and prosperity. <br><br>
-					I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s 
-					Software Developer Boot Camp, and trained and experienced in the following web and programming languages: 
-					HTML, CSS, JavaScript, SQL, Python, C# and the .Net Framework. I have also had internships working on live
-					projects, each a two week sprint. <br><br>I am a full-stack developer and would love to work with you on your project. 
+
+					&ensp;Hi, my name is Dave Street. I am a graduate of The Tech Academy’s Software Developer Full Stack Boot Camp. 
+					I have invested over 1100+ hours to complete studies in Computer & Technology Basics Course, 
+					Overview of Software Development Course, Version Control Course, HTML & CSS Course, JavaScript Course, 
+					Database & SQL Course, Visual Studio Course, C# & .NET Framework Course, 
+					Python Course, Project Management Course, Live Projects and Job Placement Course.<br><br> 
+					&ensp; I am a software developer that has come from a mechanical background, relying heavily on problem 
+					solving and time managment skills. I look forward to applying my life experiences to software and 
+					database development. I am a very willing, open person and I enjoy being helpful and supportive. I try to 
+					always be thoughtful and positive in my communications and interactions both professionally and personally.<br><br>
+					&ensp;I have had internship experiences working on live projects, each a two week sprint working with Azure DevOPs, GitHub and Slack.
+					I am a full-stack developer and would love to work and grow with you on your project. 
 					<a onclick="openForm()" href="#Contact";>Contact</a> me below!
 				</p>	
 		</div>
@@ -146,13 +153,20 @@
 <!-- GitHub section -->
 	<div class="Row" id="GitHub">
 		<div class="Column_1"> <!-- Left column -->
+			<h1>Resources</h1>
+			<hr class="rounded">
 			<h1>GitHub</h1>
-				<p>You can view my coding projects on my GitHub profile here:<br>
-				<center><a href="https://github.com/doodstreet" target="_blank">Visit My GitHub Profile: doodstreet</a></center></p>
+			<center><a href="https://github.com/doodstreet/SurfSpots_Python_Internship_App" target="_blank">Python Internship Project</a><br></center>
+			<p>I created a Python Surf Spots App as part of a much larger Hobby Tracker website.</p>
+			<center><a href="https://github.com/doodstreet/Theatre_Vertigo_Csharp_Internship_Project" target="_blank">C# Intership Project</a><br></center>
+			<p>I have also had a C# intership experience with Prosper I.T. Consulting. This project was a great experience for me using 
+				Agile/Scrum methodologies during this two week sprint working on a Theatre website.</p>
 			<br>
 			<h1>LinkedIn</h1>
-				<p>Visit My LinkedIn Profile Here:<br>
-				<center><a href="https://www.linkedin.com/in/dave-street-03a3a0b7/" target="blank">LinkedIn: Dave Street</a></center></p>
+				<center><a href="https://www.linkedin.com/in/dave-street-03a3a0b7/" target="_blank">LinkedIn: Dave Street</a></center>
+			<br>
+			<h1>My Resume</h1>
+				<center><a href="https://docs.google.com/document/d/1wNVfYgx_J_bBFMzpMUaDPGM3rmNB_96GHOrcUjoU5fQ/edit?usp=sharing" target="_blank">My Resume: Dave Street Software Developer</a></center>		
 		</div>
 		
 		<div class="Column_2"> <!-- Right column -->
@@ -184,8 +198,8 @@
 	
 <!-- Footer section -->
 	<footer>
-		<p>
-			<center>&copy David Street 2020, 00davestreet@gmail.com	&nbsp &nbsp	Special Thanks to  <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+		<p id="footerText">
+		&emsp;&emsp; &copy David Street 2021, 00davestreet@gmail.com &emsp; Special Thanks to <a href="https://learncodinganywhere.com/">The Tech Academy</a><br>
 		</p>
 	</footer>
 
